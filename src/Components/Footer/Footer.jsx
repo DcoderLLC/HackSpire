@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
 
           <p className="mt-6 text-sm  lg:mt-0 text-gray-400">
-            © Copyright 2023 Meraki UI.{" "}
+            © Copyright 2024 Innovative MedTech{" "}
           </p>
         </div>
       </footer>
