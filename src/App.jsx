@@ -8,6 +8,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import About from "./Pages/About";
 import Team from "./Pages/Team";
+import ClinicLogin from "./Pages/ClinicLogin";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" exact element={<About />} />
           <Route path="/team" exact element={<Team />} />
           <Route path="/details" exact element={<Details />} />
+          <Route path="/clinic-login" exact element={<ClinicLogin />} />
         </Routes>
         <Footer />
       </Router>

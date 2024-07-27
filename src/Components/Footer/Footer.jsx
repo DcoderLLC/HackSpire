@@ -8,53 +8,33 @@ const Footer = () => {
       <footer className="bg-gray-800">
         <div className="container flex flex-col items-center justify-between px-6 py-8 mx-auto lg:flex-row">
           <Link
-            to=""
+            to="/clinic-login"
             className="text-lg font-semibold  transition-colors duration-300 text-gray-200 hover:text-blue-500 dark:"
           >
             Innovative MedTech
           </Link>
 
           <div className="flex flex-wrap items-center justify-center gap-4 mt-6 lg:gap-6 lg:mt-0">
-            <a
-              href="#"
+            <Link
+              to="/about"
               className="text-sm  transition-colors duration-300 text-gray-200 hover:text-blue-500 "
             >
-              Overview
-            </a>
+              About
+            </Link>
 
-            <a
-              href="#"
+            <Link
+              to="/notification"
               className="text-sm  transition-colors duration-300 text-gray-200 hover:text-blue-500 "
             >
-              Features
-            </a>
+              Notification
+            </Link>
 
-            <a
-              href="#"
+            <Link
+              to="/team"
               className="text-sm  transition-colors duration-300 text-gray-200 hover:text-blue-500 "
             >
-              Pricing
-            </a>
-            <a
-              href="#"
-              className="text-sm  transition-colors duration-300 text-gray-200 hover:text-blue-500 dark:"
-            >
-              Careers
-            </a>
-
-            <a
-              href="#"
-              className="text-sm  transition-colors duration-300 dark:text-gray-200 hover:text-blue-500 dark:"
-            >
-              Help
-            </a>
-
-            <a
-              href="#"
-              className="text-sm  transition-colors duration-300 text-gray-200 hover:text-blue-500 "
-            >
-              Privacy
-            </a>
+              Team
+            </Link>
           </div>
 
           <p className="mt-6 text-sm  lg:mt-0 text-gray-400">
