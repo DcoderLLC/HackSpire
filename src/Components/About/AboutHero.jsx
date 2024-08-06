@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import {} from "react";
+import { Link } from "react-router-dom";
 
 const AboutHero = () => {
   return (
@@ -7,15 +7,18 @@ const AboutHero = () => {
       <div className="container px-6 py-16 mx-auto text-center">
         <div className="max-w-lg mx-auto">
           <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
-            Building Your Next App with our Awesome components
+            Get Your Diagnosis Results with Ease
           </h1>
           <p className="mt-6 text-gray-500 dark:text-gray-300">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
-            similique obcaecati illum mollitia.
+            Our platform allows patients to access their diagnosis results
+            securely online. Medical staff can upload results, ensuring timely
+            and accurate information delivery.
           </p>
-          <button className="px-5 py-2 mt-6 text-sm font-medium leading-5 text-center text-white capitalize bg-blue-600 rounded-lg hover:bg-blue-500 lg:mx-0 lg:w-auto focus:outline-none">
-            Start 14-Day free trial
-          </button>{" "}
+          <Link to="/">
+            <button className="px-5 py-2 mt-6 text-sm font-medium leading-5 text-center text-white capitalize bg-blue-600 rounded-lg hover:bg-blue-500 lg:mx-0 lg:w-auto focus:outline-none">
+              View Your Results
+            </button>
+          </Link>
         </div>
 
         <div className="flex justify-center mt-10">
