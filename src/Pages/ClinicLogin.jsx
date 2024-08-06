@@ -1,9 +1,13 @@
-import {} from 'react'
+import {} from "react";
+import { Box } from "@mui/material";
+import Login from "../Components/Login/login";
 
 const ClinicLogin = () => {
   return (
-    <div>ClinicLogin</div>
-  )
-}
+    <Box>
+      <Login />
+    </Box>
+  );
+};
 
-export default ClinicLogin
+export default ClinicLogin;

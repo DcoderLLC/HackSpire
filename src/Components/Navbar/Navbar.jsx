@@ -60,9 +60,9 @@ const Navbar = () => {
               </Link>
               <Link
                 className="my-2 transition-colors duration-300 transform text-gray-200 hover:text-blue-500  md:mx-4 md:my-0"
-                to="/notification"
+                to="/faq"
               >
-                Notification
+                FAQ
               </Link>
               <Link
                 className="my-2 transition-colors duration-300 transform text-gray-200 hover:text-blue-500  md:mx-4 md:my-0"

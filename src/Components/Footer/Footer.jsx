@@ -23,10 +23,10 @@ const Footer = () => {
             </Link>
 
             <Link
-              to="/notification"
+              to="/faq"
               className="text-sm  transition-colors duration-300 text-gray-200 hover:text-blue-500 "
             >
-              Notification
+              FAQ
             </Link>
 
             <Link
