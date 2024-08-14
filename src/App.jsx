@@ -10,6 +10,7 @@ import About from "./Pages/About";
 import Team from "./Pages/Team";
 import ClinicLogin from "./Pages/ClinicLogin";
 import FAQ from "./Pages/FAQ";
+import ClinicHome from "./Pages/ClinicHome";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/details" exact element={<Details />} />
           <Route path="/faq" excat element={<FAQ />} />
           <Route path="/clinic-login" exact element={<ClinicLogin />} />
+          <Route path="/clinic-home" exact element={<ClinicHome />} />
         </Routes>
         <Footer />
       </Router>
